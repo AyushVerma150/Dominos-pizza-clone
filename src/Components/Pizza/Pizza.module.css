@@ -1,0 +1,204 @@
+.card {
+    flex: 1 0 350px;
+    box-sizing: border-box;
+    max-width: 300px;
+   margin-right: 20px;
+   font-size: 0.75rem;
+   text-align: left;
+    width:"15rem";
+    margin-left:10px;
+    align-items: flex-end;
+    margin-bottom: 10px;
+  }
+  
+  .title {
+      margin-left:10px;
+      text-align: left;
+    color: #332b00;
+    font-size: 12px;
+  }
+  
+.button {
+    color: black;
+    background-color: #ffd700;
+   border:none;
+   margin-bottom: 10px;
+   align-items:flex-end;
+   width: 40%;
+   margin-right: 10px;
+  }
+  .button:hover
+  {
+    border:none;
+    background-color: #332b00;
+    color:white
+  }
+   
+  .splitLeft
+  {
+      margin-top: 50px;
+      height:100%;
+      width:70%;
+      position:fixed;
+      z-index:1;
+      top:0;
+      overflow-x: hidden;
+      padding-top: 20px;
+      left:0;
+      
+  }
+
+  .splitRight
+  {
+    display: block;
+        height:100%;
+        width:20%;
+        position:fixed;
+        z-index:1;
+        top:0;
+        overflow-x: hidden;
+        padding-top: 20px;
+        right:0px;
+        justify-content: center;
+        align-items: center;
+        margin-right: 30px;
+  }
+
+
+  .hLine
+  {
+margin-top: -15px;
+    width: 80%;
+    color: grey;
+    font-size: 12px;
+  }
+
+  .dropDown
+  {margin-right: 10px;
+    margin-bottom: 5px;
+  }
+
+
+  .priceButton
+  {
+    color: black;
+    background-color: #ffd700;
+   border:none;
+   margin-bottom: 10px;
+   align-items:initial;
+   width: 40%;
+   margin-right: 10px;
+  }
+
+  .pizzaDiv
+  {
+
+    display : flex;
+    flex-wrap:wrap ;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+
+
+.fullWidth
+{
+  width:95%;
+}
+
+.cartButtonWidth
+{
+  width:18%;
+}
+
+.cardPriceButton
+  {
+    width:95%;
+    color: black;
+    background-color: #ffd700;
+   border:none;
+   margin-bottom: 10px;
+   align-items:initial;
+   margin-right: 5px;
+   margin-top: 3px;
+  }
+
+
+  .cardRemoveFromCart
+  {
+    color: black;
+    background-color: #ffd700;
+   border:none;
+   margin-bottom: 10px;
+   align-items:flex-end;
+   margin-right: 10px;
+   width:20%;
+   margin-left: 10px;
+  }
+
+  .cartCustomizations
+  {
+width:92%;
+font-size:14px ;
+text-transform: capitalize;
+margin-right: 10px;
+margin-bottom: 5px;
+  }
+
+  .cardAddToCart
+  {
+    color: black;
+    background-color: #ffd700;
+   border:none;
+   margin-bottom: 10px;
+   align-items:flex-end;
+   width: 40%;
+   margin-right: 10px;
+   width:20%;
+   margin-left: 5px;
+  }
+
+
+.removeFromCart
+  {
+    width:50%;
+margin-left:8px;
+margin-right:8px;
+font-weight:bold;
+  }
+
+  .iconStyle
+  {
+    float:right;
+  }
+
+  .countButton
+  {
+    color: black;
+    background-color: #ffd700;
+   border:none;
+   margin-bottom: 10px;
+   align-items:flex-end;
+   margin-right: 10px;
+   width: 42%;
+   margin-left: 5px;
+  }
+
+  .addToCart{
+    color: black;
+    background-color: #ffd700;
+   border:none;
+   margin-bottom: 10px;
+   align-items:flex-end;
+   margin-right: 5px;
+   width:95%;
+  }
+
+  .divWidth
+  {
+    width:100%;
+  }
+
+  .textAlign
+  {
+    text-align:center;
+  }

@@ -1,0 +1,60 @@
+.cart {
+    display: block;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 150px;
+   overflow:scroll;
+   height:400px;
+   max-width: 340px;
+  }
+
+  .card {
+    flex: 1 0 500px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 280px;
+   margin-top: 30px;
+   margin-left: 10px;
+   margin-right: 50px;
+   background-color: whitesmoke;
+  }
+  
+  .title {
+      margin-left:10px;
+      text-align: left;
+    color: #332b00;
+    font-size: 12px;
+  }
+  
+.button {
+    border:none;
+    outline:0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #332b00;
+    text-align: center;
+    cursor: pointer;
+    width: 40%;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+
+
+
+  .errorDiv
+  {
+color:red;
+background-color: salmon;
+margin-top:70px;
+  }
+
+  .userMsg
+  {
+
+position: absolute;
+bottom:35%;
+text-align: center ;
+left:9%;
+  }
